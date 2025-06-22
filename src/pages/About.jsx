@@ -21,11 +21,11 @@ export default function About() {
         <div className="social-links">
           <h3>Connect with me</h3>
           <div className="links-container">
-            <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/ashmitt" target="_blank" rel="noopener noreferrer">
               <img src="/github-logo.svg" alt="GitHub" />
               GitHub
             </a>
-            <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer">
+            <a href="https://instagram.com/ashm1t5" target="_blank" rel="noopener noreferrer">
               <img src="/instagram-logo.svg" alt="Instagram" />
               Instagram
             </a>
