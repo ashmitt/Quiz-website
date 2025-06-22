@@ -48,11 +48,49 @@
   margin-bottom: 0.75rem;
 }
 
+.social-links {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.social-links h3 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.links-container a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.links-container a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.links-container img {
+  width: 24px;
+  height: 24px;
+}
+
 .meme-image {
   max-width: 100%;
   height: auto;
   margin-top: 2rem;
   border-radius: 15px;
-  opacity: 0.8;
-  mix-blend-mode: multiply;
+  opacity: 0.5;
+  mix-blend-mode: screen;
 } 

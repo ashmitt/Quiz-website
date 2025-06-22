@@ -17,6 +17,21 @@ export default function About() {
             <li>Responsive design</li>
           </ul>
         </div>
+        
+        <div className="social-links">
+          <h3>Connect with me</h3>
+          <div className="links-container">
+            <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+              <img src="/github-logo.svg" alt="GitHub" />
+              GitHub
+            </a>
+            <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer">
+              <img src="/instagram-logo.svg" alt="Instagram" />
+              Instagram
+            </a>
+          </div>
+        </div>
+
         <img src="https://th.bing.com/th/id/OIP.AFXf0nhepTFE_gONVqcdpQHaGX?r=0&rs=1&pid=ImgDetMain&cb=idpwebpc2" alt="Funny meme" className="meme-image" />
         <p color='blue'>Created by: <a href="https://github.com/ashmitt">Ashmit</a></p>
       </div>

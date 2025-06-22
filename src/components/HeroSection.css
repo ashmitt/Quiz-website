@@ -76,4 +76,51 @@ img{
   100% {
     transform: translateY(0px);
   }
+}
+
+@media (max-width: 992px) {
+  .hero {
+    gap: 2rem;
+    padding: 2rem 5%;
+  }
+
+  .left h1 {
+    font-size: 3rem;
+  }
+
+  .left p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 5%;
+    min-height: calc(100vh - 80px); /* Adjust based on navbar height */
+  }
+  
+  .right {
+    order: -1; /* Move image to the top */
+    margin-bottom: 2rem;
+  }
+
+  .right img {
+    max-height: 250px;
+    animation: none; /* Disable float on mobile for performance */
+  }
+
+  .left h1 {
+    font-size: 2.5rem;
+  }
+
+  .left p {
+    margin-bottom: 2rem;
+  }
+
+  .left button {
+    padding: 0.9rem 2.5rem;
+    font-size: 1.1rem;
+  }
 } 
