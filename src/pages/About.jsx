@@ -18,6 +18,7 @@ export default function About() {
           </ul>
         </div>
         <img src="https://th.bing.com/th/id/OIP.AFXf0nhepTFE_gONVqcdpQHaGX?r=0&rs=1&pid=ImgDetMain&cb=idpwebpc2" alt="Funny meme" className="meme-image" />
+        <p>Created by: <a href="https://github.com/ashmitt">Ashmit</a></p>
       </div>
     </div>
   );
