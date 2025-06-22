@@ -10,7 +10,7 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #ff4e50 0%, #f9d423 100%);
   color: #fff;
   min-height: 100vh;
   line-height: 1.6;
