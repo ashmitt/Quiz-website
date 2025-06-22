@@ -17,7 +17,7 @@ export default function About() {
             <li>Responsive design</li>
           </ul>
         </div>
-        <img src="/meme.jpg" alt="Funny meme" className="meme-image" />
+        <img src="https://th.bing.com/th/id/OIP.AFXf0nhepTFE_gONVqcdpQHaGX?r=0&rs=1&pid=ImgDetMain&cb=idpwebpc2" alt="Funny meme" className="meme-image" />
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ export default function HeroSection() {
         <Link to="/quiz"><button>Start Quiz</button></Link>
       </div>
       <div className="right">
-        <img src="/quiz.svg" alt="Quiz" />
+        <img src="https://static.vecteezy.com/system/resources/previews/012/552/383/non_2x/hand-drawn-doodle-style-cartoon-quiz-symbol-free-vector.jpg" alt="Quiz" />
       </div>
     </div>
   );

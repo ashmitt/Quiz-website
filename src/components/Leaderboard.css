@@ -1,67 +1,92 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .leaderboard-container {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 900px;
+  margin: 4rem auto;
   padding: 2rem;
 }
 
 .leaderboard-container h2 {
   text-align: center;
-  color: #333;
-  margin-bottom: 2rem;
+  color: #fff;
+  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .no-data {
   text-align: center;
-  color: #666;
+  color: #eee;
   font-style: italic;
+  font-size: 1.1rem;
+  padding: 4rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
 }
 
 .leaderboard-list {
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
 
 .leaderboard-entry {
   display: grid;
-  grid-template-columns: 50px 2fr 1fr 1fr 2fr;
-  gap: 1rem;
-  padding: 1rem;
-  border-bottom: 1px solid #eee;
+  grid-template-columns: 50px 3fr 1fr 1fr 2fr;
+  gap: 1.5rem;
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   align-items: center;
+  animation: fadeIn 0.5s ease-out forwards;
 }
 
 .leaderboard-entry:last-child {
   border-bottom: none;
 }
 
-.leaderboard-entry:nth-child(even) {
-  background-color: #f8f9fa;
+.leaderboard-entry:first-child {
+  background: rgba(255, 255, 255, 0.1);
 }
 
-.rank {
-  font-weight: bold;
-  color: #007bff;
+.leaderboard-entry .rank {
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.2rem;
 }
 
-.name {
-  font-weight: bold;
+.leaderboard-entry .name {
+  font-weight: 600;
+  color: #fff;
 }
 
-.score {
+.leaderboard-entry .score {
   text-align: center;
-  font-weight: bold;
-  color: #28a745;
+  font-weight: 700;
+  color: #fff;
 }
 
-.time {
+.leaderboard-entry .time {
   text-align: center;
-  color: #666;
+  color: #eee;
 }
 
-.date {
+.leaderboard-entry .date {
   text-align: right;
-  color: #666;
+  color: #eee;
   font-size: 0.9rem;
 } 

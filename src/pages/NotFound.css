@@ -1,32 +1,43 @@
 .not-found-container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
   text-align: center;
+  padding: 2rem;
 }
 
 .not-found-container h2 {
-  color: #333;
-  margin-bottom: 1rem;
-  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .not-found-container p {
-  color: #666;
-  margin-bottom: 2rem;
-  font-size: 1.1rem;
+  color: #eee;
+  margin-bottom: 3rem;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 .home-link {
   display: inline-block;
-  padding: 1rem 2rem;
-  background-color: #007bff;
-  color: white;
+  padding: 1rem 3rem;
+  background: #fff;
+  color: #667eea;
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 1.1rem;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .home-link:hover {
-  background-color: #0056b3;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  background: #f0f0f0;
 } 
