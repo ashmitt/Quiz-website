@@ -1,0 +1,67 @@
+.leaderboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.leaderboard-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.no-data {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+.leaderboard-list {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.leaderboard-entry {
+  display: grid;
+  grid-template-columns: 50px 2fr 1fr 1fr 2fr;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+}
+
+.leaderboard-entry:last-child {
+  border-bottom: none;
+}
+
+.leaderboard-entry:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.rank {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.score {
+  text-align: center;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.time {
+  text-align: center;
+  color: #666;
+}
+
+.date {
+  text-align: right;
+  color: #666;
+  font-size: 0.9rem;
+} 

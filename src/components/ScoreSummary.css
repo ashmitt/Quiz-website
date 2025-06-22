@@ -1,0 +1,44 @@
+.summary-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.summary-container h2 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.score-details {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.score-details p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.result-message {
+  font-size: 1.3rem !important;
+  font-weight: bold;
+  margin-top: 2rem !important;
+}
+
+.play-again-button {
+  padding: 1rem 2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.play-again-button:hover {
+  background-color: #0056b3;
+} 

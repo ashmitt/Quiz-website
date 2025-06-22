@@ -1,0 +1,50 @@
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.about-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.about-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.features {
+  margin: 2rem 0;
+}
+
+.features h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.features ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+.features li {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.meme-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  border-radius: 10px;
+} 
