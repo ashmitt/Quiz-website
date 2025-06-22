@@ -86,7 +86,6 @@ dist
 .cache/
 # Add history to Gatsby .gitignore by default
 # https://github.com/gatsbyjs/gatsby/pull/15424
-# public
 
 # Sapper build output
 __sapper__/
